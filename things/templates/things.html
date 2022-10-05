@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Things...</title>
+
+    <style>
+      body {
+        background-color: oldlace;
+      }
+
+      #page {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+      }
+      #title,
+      #textBod {
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+        animation: scale 2s ease infinite;
+      }
+
+      @keyframes scale {
+        0%,
+        100% {
+          transform: scale(3);
+        }
+        50% {
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="page">
+      <h1 id="title">Things...</h1>
+      <h2 id="textBod">Many things...</h2>
+    </div>
+  </body>
+</html>

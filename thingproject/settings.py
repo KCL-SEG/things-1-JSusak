@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+# Application definition. PUT CUSTOM INSTALLED APPS IN HERE.
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'things',
 ]
 
 MIDDLEWARE = [
